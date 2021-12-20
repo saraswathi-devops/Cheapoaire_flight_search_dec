@@ -27,7 +27,9 @@ class CheapoairHomePage
   div(:claender_month, class: 'calendar__single-month active', index: 0)
   ul(:error_messages, class: 'alerts__list')
   ul(:error_messages_part2,class:'alerts__list',index:0)
-
+def delete
+  created a file to see the changes in local computer
+end
 
   def search_dep_airport dep_airport, dep_airport_code
     #@browser.link(class: 'suggestion-box__clear icon').click if @browser.link(class: 'suggestion-box__clear icon').present?
